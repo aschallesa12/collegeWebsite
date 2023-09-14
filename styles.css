@@ -1,0 +1,107 @@
+body {
+    font-size: 10px;
+}
+#title {
+    background-color: lightgoldenrodyellow;
+}
+h1 {
+    text-align: center;
+    font-family:  'Kelly Slab', cursive;
+    font-size: 3rem; 
+}
+h2 {
+    text-align: center;
+    font-family:  'Kelly Slab', cursive;
+    font-size: 2rem;
+}
+h3 {
+    font-family: 'Kelly Slab', cursive;
+    font-size: 1.5rem;
+}
+#title {
+    border-top: 8px solid maroon;
+    border-bottom: 8px solid maroon ; 
+  
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.external {
+    color: maroon;
+}
+p { 
+    font-size: 1rem;
+}
+ul {
+    font-size: 1rem;
+}
+
+.summaries a:hover {
+    text-decoration: underline;
+    color: black;
+    background-color: lightgoldenrodyellow;
+}
+.steps {
+    color: maroon;
+    font-size: 1rem;
+}
+.steps a:hover {
+    color: maroon;
+    background-color: lightgoldenrodyellow;
+}
+
+/* course choices*/
+.courses {
+    font-size: 1rem;
+}
+.courses a {
+    text-decoration: none;
+    color: maroon;
+}
+.courses a:hover {
+    text-decoration: underline;
+    color: black;
+    background-color: lightgoldenrodyellow;
+}
+.additional {
+    
+}
+/*nav-bar*/
+
+.nav-links {
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 40px;
+    
+}
+.nav-links a {
+    text-decoration: none;
+    border-style: solid;
+    border-color: maroon;
+    color: black;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+    color: maroon;
+    background-color: lightgoldenrodyellow
+}
+
+/*footer*/
+.footer  {
+    display: flex;
+    justify-content: flex-end;
+    gap: 300px;
+    border-top: 8px solid maroon;
+    border-bottom: 8px solid maroon;
+    background-color: lightgoldenrodyellow;
+}
+@media (max-width: 600px){
+    body {
+        background-color: grey;
+    }
+}
