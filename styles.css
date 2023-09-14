@@ -1,6 +1,8 @@
 body {
     font-size: 10px;
+    background-color: blanchedalmond;
 }
+/*Titles*/
 #title {
     background-color: lightgoldenrodyellow;
 }
@@ -8,20 +10,23 @@ h1 {
     text-align: center;
     font-family:  'Kelly Slab', cursive;
     font-size: 3rem; 
+    letter-spacing: 0.8px;
 }
 h2 {
     text-align: center;
     font-family:  'Kelly Slab', cursive;
     font-size: 2rem;
+    letter-spacing: 0.7px
 }
 h3 {
     font-family: 'Kelly Slab', cursive;
     font-size: 1.5rem;
+    letter-spacing: 0.7px;
 }
 #title {
-    border-top: 8px solid maroon;
-    border-bottom: 8px solid maroon ; 
-  
+    border-top: 25px solid maroon;
+    border-bottom: 25px solid maroon ; 
+  /*Body*/
 }
 .grid-container {
     display: grid;
@@ -30,15 +35,28 @@ h3 {
 .external {
     color: maroon;
 }
+a[target=_blank] {
+    
+}
 p { 
     font-size: 1rem;
+    font-family: 'PT Serif', serif;
+    padding: 5px;
+    letter-spacing: 0.5px;
 }
 ul {
     font-size: 1rem;
+    letter-spacing: 0.5px;
 }
 
 .summaries a:hover {
     text-decoration: underline;
+    color: black;
+    background-color: lightgoldenrodyellow;
+    border-style: solid;
+    border-color: maroon;
+}
+.summaries a:focus {
     color: black;
     background-color: lightgoldenrodyellow;
 }
@@ -47,25 +65,80 @@ ul {
     font-size: 1rem;
 }
 .steps a:hover {
+    background-color: lightgoldenrodyellow;
+    text-decoration: none;
+    border-style: solid;
+    border-color: maroon;
+}
+.steps a:active {
     color: maroon;
     background-color: lightgoldenrodyellow;
+}
+.steps a:focus {
+    color: maroon;
+    background-color: lightgoldenrodyellow;
+}
+ol {
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
 }
 
 /* course choices*/
 .courses {
     font-size: 1rem;
+    letter-spacing: 1px;
 }
 .courses a {
-    text-decoration: none;
+    text-decoration: underline;
     color: maroon;
+    
 }
 .courses a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
     background-color: lightgoldenrodyellow;
+    border-style: solid;
+    padding: 1%;
+    border-color: maroon;
+}
+.courses a:focus {
+    text-decoration: none;
+    color: black;
+    background-color: lightgoldenrodyellow;
+    border-style: solid;
+    padding: 1%;
+    border-color: maroon;
+}
+.courses a:active {
+    color: maroon;
+    box-shadow: 0px 5px 5px 0px;
 }
 .additional {
-    
+    text-align: center;
+    letter-spacing: 0.7px;
+}
+.additional a {
+    color: maroon
+}
+.additional a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: lightgoldenrodyellow;
+    border-style: solid;
+    padding: 1%;
+    border-color: maroon; 
+}
+.additional a:focus {
+    text-decoration: none;
+    color: black;
+    background-color: lightgoldenrodyellow;
+    border-style: solid;
+    padding: 1%;
+    border-color: maroon;
+}
+.additional a:active {
+    color: maroon;
+    box-shadow: 0px 5px 5px 0px;
 }
 /*nav-bar*/
 
@@ -76,29 +149,41 @@ ul {
     
 }
 .nav-links a {
-    text-decoration: none;
+    text-decoration: underline;
     border-style: solid;
     border-color: maroon;
-    color: black;
-    padding: 2%;
+    color: maroon;
+    padding: 10%;
     display: flex;
     justify-content: center;
     font-size: 20px;
+    background-color: lightgoldenrodyellow;
 }
 .nav-links a:hover {
-    text-decoration: underline;
-    color: maroon;
+    text-decoration: none;
+    color: black;
     background-color: lightgoldenrodyellow
+}
+.nav-links a:focus {
+    text-decoration: none;
+    color: black;
+    background-color: lightgoldenrodyellow;
+}
+.nav-links a:active {
+    color: maroon;
+    box-shadow: 0px 10px 10px 0px;
 }
 
 /*footer*/
 .footer  {
     display: flex;
     justify-content: flex-end;
-    gap: 300px;
+    gap:  300px;
     border-top: 8px solid maroon;
     border-bottom: 8px solid maroon;
     background-color: lightgoldenrodyellow;
+    font-size: 1.0rem;
+
 }
 @media (max-width: 600px){
     body {
